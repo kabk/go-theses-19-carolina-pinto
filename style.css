@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+    background-image: url("logo-orgasmify-04.png");
+    background-repeat: repeat;
+
+}
+
+@media print{
+  LOOK AT PRINT FEATURES CSS
+  TWO SEPARATE STYLE SHEETS FOR WEB AND FOR PRINT
+  SET UP FOR PRINT FIRST
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 12px;
+    font-style: italic;
+}
+
+a {
+font-family: serif;
+font-size:35px;
+text-align: center;
+position: inherit;
+border: 3px solid blue;
+box-shadow: 10px 10px 8px blue;
+padding: 10px;
+background-color: white;
+}
+
+a:visited {
+    color: blue;
+  }
+
+
+
+
+p{
+  font-family:serif;
+  font-size: 20px;
+  text-align: left;
+  font-family: serif;
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  width: 700px;
+  border: 3px solid blue;
+  box-shadow: 10px 10px 8px blue;
+  padding: 10px;
+  background-color: white;
+
+
+
+
+}
