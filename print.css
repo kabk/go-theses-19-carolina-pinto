@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'SnellRoundhand';
+  src:url('SnellRoundhand.ttc');
+}
+
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('Lekton-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lydian';
+  src: url('LydianCursiveBT-Regular.otf');
+
+}
+
+@font-face {
+  font-family:'ConcordeNova';
+  src: url('ConcoNovReg');
+}
+
+
+
+@media print {
+
+  h1 {
+    font-family:'SnellRoundhand';
+    font-size: 250px;
+    padding-left: 50px;
+
+  }
+
+  #newindex a{
+font-family: serif;
+font-size: 12px;
+
+
+  }
+  #Monday, #Tuesday, #Wednesday, #Thursday, #Friday, #Conclusion
+  {
+    font-family: 'ConcordeNova';
+    background-image: url('blank.jpg');
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+
+
+  #Monday p, #Tuesday p, #Wednesday p, #Thursday p, #Friday p {
+    font-family: 'Lydian';
+    font-size: 14px;
+  }
+
+  #Monday a, #Tuesday a, #Wednesday a, #Thursday a, #Friday a {
+    font-family: 'Concorde';
+    font-size: 14px;
+  }
+
+  a:visited {
+      color: black;
+
+    }

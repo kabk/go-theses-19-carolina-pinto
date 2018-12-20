@@ -1,61 +1,258 @@
-body {
-    background-color: pink;
-    background-image: url("logo-orgasmify-04.png");
-    background-repeat: repeat;
+
+@font-face {
+  font-family: 'SnellRoundhand';
+  src:url('SnellRoundhand.ttc');
+}
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('Lekton-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lydian';
+  src: url('LydianCursiveBT-Regular.otf');
 
 }
 
-@media print{
-  LOOK AT PRINT FEATURES CSS
-  TWO SEPARATE STYLE SHEETS FOR WEB AND FOR PRINT
-  SET UP FOR PRINT FIRST
+@font-face {
+  font-family: 'ConcordeNova';
+  src: url('ConcoNovReg.ttf');
 }
 
-h1 {
-    color: white;
-    font-size: 60px;
+
+#newindex {
+    background-color: white;
+
+
+  }
+
+
+#title {
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Lydian';
+    color: blue;
+    font-size: 370px;
     text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    background-image: url('sheryl.png');
+    border: 10px solid red;
+    z-index: +1;
 }
 
-
-h2 {
-    font-size: 12px;
-    font-style: italic;
+#title p {
+  font-family: 'SnellRoundhand';
+  
+  color: blue;
+  font-size: 70px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  outline-color:inherit;
 }
 
-a {
-font-family: serif;
-font-size:35px;
-text-align: center;
+#newindex a {
+  font-family: 'ConcordeNova';
+  color: blue;
+  font-size: 50px;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+#Monday a, #Tuesday a, #Wednesday a, #Thursday a, #Friday a {
+font-family: 'SnellRoundhand';
+font-size:40px;
+text-align: left;
 position: inherit;
-border: 3px solid blue;
-box-shadow: 10px 10px 8px blue;
-padding: 10px;
-background-color: white;
+background-image: url('blank.jpg');
+background-color: red;
+text-decoration: none;
+
+
 }
 
 a:visited {
     color: blue;
+
+  }
+
+
+#backg {
+  position: relative;
+  height: 0;
+  overflow: visible;
+  background: red;
+  z-index: -1;
+}
+#backg img{
+  position: absolute;
+
+}
+
+#manifesto { z-index: 0 }
+
+
+
+
+
+
+  .popup {
+    position: absolute;
+    width: 400px;
+    top: 0px;
+    left: 300px;
+  	border: 1px solid #ddd;
+  	padding: 30px;
+  	background-color: white;
+  	display: none;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .popup h1 {
+  }
+
+  .popup p {
+  }
+
+  .popup .artwork {
+  	width: 100%;
+  }
+
+  .close-button {
+  	width: 20px;
+  	height: 20px;
+  	position: absolute;
+  	right: 5px;
+  	top: 5px;
+  	background: url("rip.png") no-repeat;
+  	background-size: cover;
+  	border: 1px solid rgba(255,255,255,0);
+  	cursor: pointer;
+  }
+
+  close-button:hover {
+  	border: 1px solid black;
   }
 
 
 
-
-p{
-  font-family:serif;
-  font-size: 20px;
-  text-align: left;
-  font-family: serif;
-  font-size: 20px;
-  position: absolute;
-  left: 10px;
-  width: 700px;
-  border: 3px solid blue;
-  box-shadow: 10px 10px 8px blue;
+#Monday
+{
+  font-family:'ConcordeNova';
+  background-image: url('blank.jpg');
+  color: black;
   padding: 10px;
+  text-align: left justify;
+  position: inherit;
+  width: 230px;
   background-color: white;
+  float: left;
+  margin-right: 5px;
+  overflow: hidden;
+
+  border: 5px solid black;
 
 
 
+}
+#Monday p, #Tuesday p, #Wednesday p, #Thursday p, #Friday p {
+  font-family: 'Lydian';
+  line-height: normal;
+  background-image: url('rip.png');
+  background-size:cover;
 
+}
+
+
+
+#Tuesday, #Wednesday, #Thursday, #Friday
+{
+  background-image: url('blank.jpg');
+  color: black;
+  padding: 10px;
+  text-align: left justify;
+  position: relative;
+  top: inherit;
+  width: 230px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 5px;
+  border: 5px solid black;
+
+
+}
+
+#Conclusion{
+  background-image: url('blank.jpg');
+  bottom: 20px;
+  background-color: blue;
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 5px solid blue;
+
+  margin-left: 200px;
+  margin-right: 200px;
+
+
+}
+
+
+
+ .mondaypage {
+  background-image: url('blank.jpg');
+  color: black;
+  padding: 10px;
+  text-align: left justify;
+  position: absolute;
+  top: auto;
+  width: 600px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+
+}
+
+
+#manifesto{
+  position: fixed;
+  top: 50%; left: 50%;
+
+  background-image: url('blank.jpg');
+  font-family: 'Lydian';
+  color: red;
+  width: 200px;
+  font-size: 50px;
+  border: 5px solid red;
+  box-shadow: blue;
+  padding: 20px;
+
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+#manifesto a
+{
+  font-family: 'Lydian';
+  text-decoration: none;
+}
+
+#Appendix {
+  background-image: url('blank.jpg');
+  bottom: 20px;
+  background-color: blue;
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 5px solid blue;
+
+  margin-left: 200px;
+  margin-right: 200px;
 }
