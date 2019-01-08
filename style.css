@@ -44,23 +44,49 @@
 
 #title p {
   font-family: 'SnellRoundhand';
-  
+
   color: blue;
   font-size: 70px;
   text-align: center;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   outline-color:inherit;
 }
 
-#newindex a {
-  font-family: 'ConcordeNova';
+#abstractlink {
+  font-family: 'SnellRoundhand';
   color: blue;
-  font-size: 50px;
+  font-size: 30px;
   text-align: right;
-  padding-right: 10px;
+  text-decoration: none;
 
 }
+
+#printlink {
+  font-family: 'SnellRoundhand';
+  color: blue;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+
+#Abstract {
+  background-image: url('blank.jpg');
+  bottom: 20px;
+  background-color: blue;
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 5px solid blue;
+
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
 
 #Monday a, #Tuesday a, #Wednesday a, #Thursday a, #Friday a {
 font-family: 'SnellRoundhand';
@@ -71,11 +97,12 @@ background-image: url('blank.jpg');
 background-color: red;
 text-decoration: none;
 
-
 }
 
-a:visited {
+
+ a:visited {
     color: blue;
+    text-decoration: none;
 
   }
 
@@ -210,14 +237,23 @@ a:visited {
   text-align: left justify;
   position: absolute;
   top: auto;
-  width: 600px;
+  width: 1000px;
   background-color: red;
   display: inline-block;
   margin-right: 5px;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 10px;
+
 
 }
+
+.mondaypage p {
+  font-family: 'Lydian';
+  line-height: normal;
+  background-image: url('rip.png');
+  background-size:cover;
+}
+
 
 
 #manifesto{
@@ -255,4 +291,14 @@ a:visited {
 
   margin-left: 200px;
   margin-right: 200px;
+}
+
+#popup {
+width: 300px;
+height: 2000px;
+
+}
+iframe {
+  width: 20px;
+  z-index: 2;
 }

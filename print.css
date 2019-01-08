@@ -1,18 +1,4 @@
-
-
-@media print {
-
-<a href="wednesday.html"> Day 3: Wednesday</a>
-
-
-}
-
-
-
-
-
-
-/* @font-face {
+@font-face {
   font-family: 'SnellRoundhand';
   src:url('SnellRoundhand.ttc');
 }
@@ -78,4 +64,4 @@ font-size: 12px;
   a:visited {
       color: black;
 
-    } */
+    }
