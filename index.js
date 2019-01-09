@@ -40,6 +40,28 @@ $( function( ) {
     } );
   }
 
+  function openDetails( event ) {
+    event.preventDefault( );
+    event.stopPropagation( );
+
+    var link = $( this );
+    var href = link.data( 'src' );
+
+    $( '#detail-popup' ).load( href, function( ) {
+      var popup = $( this );
+      var content = popup.find( '.pagecontent' ).html( );
+      popup.html( content ).fadeIn( 200 );
+    } );
+  }
+  $( '.detail-link' ).click( openDetails );
+
+  function closeDetails( ) {
+    $( '#detail-popup' ).fadeOut( 200, function( ) {
+      $( this ).empty( );
+    } );
+  }
+  $( window ).click( closeDetails );
+
   $( window ).resize( positionBackgrounds )
              .trigger( 'resize' );
 } )
