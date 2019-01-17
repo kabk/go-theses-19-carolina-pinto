@@ -20,6 +20,18 @@
   src: url('ConcoNovReg.ttf');
 }
 
+@font-face {
+  font-family: 'Sporting';
+  src:url('SportingGrotesque-Regular.otf');
+
+}
+
+@font-face {
+  font-family: 'Stanley';
+  src: url('HJMOHR+Stanley-Regular.ttf');
+
+}
+
 
 #newindex {
     background-color: white;
@@ -62,7 +74,26 @@
 
 }
 
+#abstractlink a:visited {
+  font-family: 'SnellRoundhand';
+  color: blue;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+
 #printlink {
+  font-family: 'SnellRoundhand';
+  color: blue;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+#printlink a:visited{
   font-family: 'SnellRoundhand';
   color: blue;
   font-size: 30px;
@@ -81,6 +112,7 @@
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
+  font-family: 'Stanley';
 
   margin-left: 200px;
   margin-right: 200px;
@@ -129,7 +161,7 @@ text-decoration: none;
 
 #Monday
 {
-  font-family:'ConcordeNova';
+  font-family:'Stanley';
   background-image: url('blank.jpg');
   color: black;
   padding: 10px;
@@ -169,6 +201,7 @@ text-decoration: none;
   display: inline-block;
   margin-right: 5px;
   border: 5px solid black;
+  font-family: 'Stanley';
 
 
 }
@@ -182,6 +215,7 @@ text-decoration: none;
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
+  font-family: 'Stanley';
 
   margin-left: 200px;
   margin-right: 200px;
@@ -190,29 +224,15 @@ text-decoration: none;
 }
 
 
- .mondaypage {
-  background-image: url('blank.jpg');
+ /* .pagecontent {
+
   color: black;
   padding: 10px;
   text-align: left justify;
   /* position: absolute;
   top: auto; */
   /* width: 1000px; */
-  background-color: red;
-  display: inline-block;
-  /* margin-right: 5px;
-  margin-left: 5px; */
-  font-size: 10px;
 
-
-}
-
-.mondaypage p {
-  font-family: 'Lydian';
-  line-height: normal;
-  background-image: url('rip.png');
-  background-size:cover;
-}
 
 
 
@@ -255,10 +275,10 @@ text-decoration: none;
   background-color: blue;
   color: blue;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 10px;
   border: 5px solid blue;
-
+  font-family: 'Sporting';
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -270,7 +290,10 @@ text-decoration: none;
   left: 50%;
   width:1000px;
   max-width: calc(100% - 40px);
-  background-image: url('blank.jpg');
+  background-color:blue;
+  font-family: 'Stanley';
+  color: white;
+  font-size: 20px;
 
   -webkit-transform: translate( -50%, 0 );
           transform: translate( -50%, 0 );
@@ -278,4 +301,20 @@ text-decoration: none;
   overflow-y: auto;
   display: none;
   z-index: 999999;
+  padding: 20px;
+}
+
+#detail-popup p {
+  font-family: 'Lydian';
+  line-height: normal;
+
+}
+
+#backgabstract {
+  position: absolute;
+  height: 700px;
+  width: 800px;
+  overflow: visible;
+  background: red;
+  z-index: -1;
 }
