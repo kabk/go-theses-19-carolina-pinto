@@ -99,12 +99,15 @@ text-decoration: none;
 
 }
 
+.detail-link:hover {
+  color: red;
 
- a:visited {
-    color: blue;
-    text-decoration: none;
 
-  }
+}
+
+.detail-link {
+  color: blue;
+}
 
 
 #backg {
@@ -121,48 +124,6 @@ text-decoration: none;
 
 #manifesto { z-index: 0 }
 
-
-
-
-
-
-  .popup {
-    position: absolute;
-    width: 400px;
-    top: 0px;
-    left: 300px;
-  	border: 1px solid #ddd;
-  	padding: 30px;
-  	background-color: white;
-  	display: none;
-    box-shadow: 5px 10px 18px #888888;
-  }
-
-  .popup h1 {
-  }
-
-  .popup p {
-  }
-
-  .popup .artwork {
-  	width: 100%;
-  }
-
-  .close-button {
-  	width: 20px;
-  	height: 20px;
-  	position: absolute;
-  	right: 5px;
-  	top: 5px;
-  	background: url("rip.png") no-repeat;
-  	background-size: cover;
-  	border: 1px solid rgba(255,255,255,0);
-  	cursor: pointer;
-  }
-
-  close-button:hover {
-  	border: 1px solid black;
-  }
 
 
 
@@ -229,19 +190,18 @@ text-decoration: none;
 }
 
 
-
  .mondaypage {
   background-image: url('blank.jpg');
   color: black;
   padding: 10px;
   text-align: left justify;
-  position: absolute;
-  top: auto;
-  width: 1000px;
+  /* position: absolute;
+  top: auto; */
+  /* width: 1000px; */
   background-color: red;
   display: inline-block;
-  margin-right: 5px;
-  margin-left: 5px;
+  /* margin-right: 5px;
+  margin-left: 5px; */
   font-size: 10px;
 
 
@@ -260,6 +220,7 @@ text-decoration: none;
   position: fixed;
   top: 50%; left: 50%;
 
+
   background-image: url('blank.jpg');
   font-family: 'Lydian';
   color: red;
@@ -271,12 +232,21 @@ text-decoration: none;
 
   -webkit-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
+
 }
 
-#manifesto a
+#manifesto a {
+  text-decoration: none;
+}
+
+
+#manifesto a:visited
 {
   font-family: 'Lydian';
   text-decoration: none;
+  color: blue;
+  text-decoration: none;
+
 }
 
 #Appendix {
@@ -293,12 +263,19 @@ text-decoration: none;
   margin-right: 200px;
 }
 
-#popup {
-width: 300px;
-height: 2000px;
 
-}
-iframe {
-  width: 20px;
-  z-index: 2;
+#detail-popup {
+  position: fixed;
+  top: 20px; bottom: 20px;
+  left: 50%;
+  width:1000px;
+  max-width: calc(100% - 40px);
+  background-image: url('blank.jpg');
+
+  -webkit-transform: translate( -50%, 0 );
+          transform: translate( -50%, 0 );
+
+  overflow-y: auto;
+  display: none;
+  z-index: 999999;
 }
