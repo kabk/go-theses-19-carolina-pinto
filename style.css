@@ -27,7 +27,7 @@
 }
 
 @font-face {
-  font-family: 'Stanley';
+  font-family: 'Stanley-Regular';
   src: url('HJMOHR+Stanley-Regular.ttf');
 
 }
@@ -112,11 +112,15 @@
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley';
+  font-family: 'Stanley-Regular';
 
   margin-left: 200px;
   margin-right: 200px;
 
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 
@@ -161,7 +165,7 @@ text-decoration: none;
 
 #Monday
 {
-  font-family:'Stanley';
+  font-family:'Stanley-Regular';
   background-image: url('blank.jpg');
   color: black;
   padding: 10px;
@@ -201,7 +205,8 @@ text-decoration: none;
   display: inline-block;
   margin-right: 5px;
   border: 5px solid black;
-  font-family: 'Stanley';
+  font-family: 'Stanley-Regular';
+  font-weight: normal !important;
 
 
 }
@@ -215,7 +220,7 @@ text-decoration: none;
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley';
+  font-family: 'Stanley-Regular';
 
   margin-left: 200px;
   margin-right: 200px;
@@ -291,7 +296,7 @@ text-decoration: none;
   width:1000px;
   max-width: calc(100% - 40px);
   background-color:blue;
-  font-family: 'Stanley';
+  font-family: 'Stanley-Regular';
   color: white;
   font-size: 20px;
 
