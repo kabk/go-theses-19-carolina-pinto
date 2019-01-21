@@ -27,7 +27,7 @@
 }
 
 @font-face {
-  font-family: 'Stanley-Regular';
+  font-family: 'Stanley';
   src: url('HJMOHR+Stanley-Regular.ttf');
 
 }
@@ -112,7 +112,7 @@
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley-Regular';
+  font-family: 'Stanley';
 
   margin-left: 200px;
   margin-right: 200px;
@@ -165,7 +165,8 @@ text-decoration: none;
 
 #Monday
 {
-  font-family:'Stanley-Regular';
+  font-family:'Stanley';
+  font-weight: normal;
   background-image: url('blank.jpg');
   color: black;
   padding: 10px;
@@ -205,8 +206,8 @@ text-decoration: none;
   display: inline-block;
   margin-right: 5px;
   border: 5px solid black;
-  font-family: 'Stanley-Regular';
-  font-weight: normal !important;
+  font-family: 'Stanley';
+  font-weight: normal;
 
 
 }
@@ -220,8 +221,8 @@ text-decoration: none;
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley-Regular';
-
+  font-family: 'Stanley';
+  font-weight: normal;
   margin-left: 200px;
   margin-right: 200px;
 
@@ -296,7 +297,8 @@ text-decoration: none;
   width:1000px;
   max-width: calc(100% - 40px);
   background-color:blue;
-  font-family: 'Stanley-Regular';
+  font-family: 'Stanley';
+  font-weight: normal;
   color: white;
   font-size: 20px;
 
