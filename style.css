@@ -32,6 +32,12 @@
 
 }
 
+@@font-face {
+  font-family: 'Happytimes';
+  src: url('happy-times-at-the-ikob.ttf');
+
+}
+
 
 #newindex {
     background-color: white;
@@ -112,7 +118,7 @@
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley';
+  font-family: 'Happytimes';
 
   margin-left: 200px;
   margin-right: 200px;
@@ -165,8 +171,7 @@ text-decoration: none;
 
 #Monday
 {
-  font-family:'Stanley';
-  font-weight: normal;
+  font-family:'Happytimes';
   background-image: url('blank.jpg');
   color: black;
   padding: 10px;
@@ -206,8 +211,8 @@ text-decoration: none;
   display: inline-block;
   margin-right: 5px;
   border: 5px solid black;
-  font-family: 'Stanley';
-  font-weight: normal;
+  font-family: 'Happytimes';
+
 
 
 }
@@ -221,8 +226,7 @@ text-decoration: none;
   font-size: 20px;
   margin-top: 10px;
   border: 5px solid blue;
-  font-family: 'Stanley';
-  font-weight: normal;
+  font-family: 'Happytimes';
   margin-left: 200px;
   margin-right: 200px;
 
@@ -297,7 +301,7 @@ text-decoration: none;
   width:1000px;
   max-width: calc(100% - 40px);
   background-color:blue;
-  font-family: 'Stanley';
+  font-family: 'Happytimes';
   font-weight: normal;
   color: white;
   font-size: 20px;
