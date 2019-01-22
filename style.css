@@ -191,8 +191,7 @@ text-decoration: none;
 #Monday p, #Tuesday p, #Wednesday p, #Thursday p, #Friday p {
   font-family: 'Lydian';
   line-height: normal;
-  background-image: url('rip.png');
-  background-size:cover;
+
 
 }
 
